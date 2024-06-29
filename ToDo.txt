@@ -1,0 +1,31 @@
+General Features:
+Works:
+* Login - V
+* Register - V
+
+To implement:
+After login -
+    * If admin - Navigate to admin_profile.html
+        * Validate that only an admin user can navigate to this page (cannot be navigated via direct URL)
+        * View store
+        * View registered users
+        * Add game
+        * Remove game (by title)
+            * Confirm game reomval (y/n)
+        * Update game (Title, Price, Stock)
+            * Update in DB as well
+        * Logout
+    * If basic user - Navigate to user_profile.html
+        * View store
+        * View library
+        * Buy games
+        * purchase history
+        * Deposit to balance
+        * Check balance
+        * Logout
+        * Delete account
+
+Admin User:
+Works:
+* Login
+* Register
